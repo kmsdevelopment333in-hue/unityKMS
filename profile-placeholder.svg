@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#13131f"/>
+  <rect width="400" height="400" fill="url(#grad)" opacity=".5"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity=".15"/>
+    </linearGradient>
+  </defs>
+  <!-- Grid lines -->
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#1e1e3a" stroke-width="1"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#1e1e3a" stroke-width="1"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#1e1e3a" stroke-width="1"/>
+  <line x1="100" y1="0" x2="100" y2="400" stroke="#1e1e3a" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#1e1e3a" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#1e1e3a" stroke-width="1"/>
+  <!-- Avatar silhouette -->
+  <circle cx="200" cy="155" r="68" fill="#1e1e3a" stroke="#7c3aed" stroke-width="2"/>
+  <ellipse cx="200" cy="330" rx="110" ry="80" fill="#1e1e3a" stroke="#7c3aed" stroke-width="2"/>
+  <!-- KMS text -->
+  <text x="50%" y="52%" text-anchor="middle" dominant-baseline="middle" font-family="'Orbitron',monospace" font-weight="900" font-size="22" fill="#7c3aed" opacity=".4">KMS</text>
+  <!-- Label -->
+  <text x="50%" y="93%" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="12" fill="#8892a4" letter-spacing="2">PROFILE IMAGE</text>
+</svg>
